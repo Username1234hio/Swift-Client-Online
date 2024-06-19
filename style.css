@@ -1,4 +1,10 @@
-body  {
-  background-image: url("wallpaper-Bloxd2.webp");
-  background-color: #cccccc;
-}
+.background { 
+            position: absolute; 
+            height: 100%; 
+            width: 100%; 
+            background-image: url("wallpaper-Bloxd2.webp"); 
+            background-size: cover; 
+            background-position: center; 
+            filter: blur(5px); 
+            z-index: -1; 
+        } 
